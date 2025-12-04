@@ -1,4 +1,9 @@
+
 # Web_2.py
+
+import sys
+from PyQt5 import uic
+from PyQt5.QtWidgets import *
 
 from bs4 import BeautifulSoup
 
