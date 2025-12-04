@@ -1,0 +1,15 @@
+{
+  "name": "developer-portfolio",
+  "version": "1.0.0",
+  "description": "A personal portfolio website for showcasing a developer's skills, projects, and contact information.",
+  "main": "index.html",
+  "scripts": {
+    "start": "live-server ."
+  },
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
+}

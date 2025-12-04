@@ -1,0 +1,54 @@
+@media (max-width: 1200px) {
+    body {
+        font-size: 16px;
+    }
+
+    .container {
+        padding: 20px;
+    }
+
+    .header, .footer {
+        text-align: center;
+    }
+
+    .projects {
+        flex-direction: column;
+    }
+
+    .project-item {
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .nav {
+        flex-direction: column;
+    }
+
+    .nav-item {
+        margin: 10px 0;
+    }
+
+    .about-content {
+        font-size: 14px;
+    }
+
+    .contact-form {
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .header h1 {
+        font-size: 24px;
+    }
+
+    .footer {
+        font-size: 12px;
+    }
+
+    .button {
+        padding: 10px 15px;
+        font-size: 14px;
+    }
+}

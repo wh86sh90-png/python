@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Developer Portfolio</title>
+    <meta name="description" content="Portfolio of a creative developer specializing in building digital experiences.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Outfit:wght@500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">Dev.Profile</a>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <header id="hero" class="hero">
+        <div class="container hero-container">
+            <div class="hero-content">
+                <p class="greeting">Hello, I'm</p>
+                <h1 class="name">Alex Developer</h1>
+                <h2 class="role">I build <span class="typing-text"></span></h2>
+                <p class="bio">A passionate developer crafting beautiful and functional digital experiences.</p>
+                <div class="hero-btns">
+                    <a href="#projects" class="btn btn-primary">View Work</a>
+                    <a href="#contact" class="btn btn-outline">Contact Me</a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="code-block-wrapper">
+                    <div class="code-header">
+                        <span class="dot red"></span>
+                        <span class="dot yellow"></span>
+                        <span class="dot green"></span>
+                    </div>
+                    <pre><code class="language-javascript">
+const developer = {
+  name: 'Alex',
+  passion: 'Coding',
+  status: 'Available for hire',
+  skills: [
+    'JavaScript',
+    'React',
+    'Node.js'
+  ],
+  hardWorker: true
+};
+                    </code></pre>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-down">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+        </div>
+    </header>
+
+    <section id="about" class="section about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>I am a creative developer with a passion for building immersive web applications. With a background in computer science and design, I bridge the gap between engineering and aesthetics.</p>
+                    <p>My journey started with a curiosity for how things work on the web, and it has evolved into a career of solving complex problems with clean, efficient code.</p>
+                    <div class="stats">
+                        <div class="stat-item">
+                            <span class="stat-number">5+</span>
+                            <span class="stat-label">Years Exp.</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">50+</span>
+                            <span class="stat-label">Projects</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">20+</span>
+                            <span class="stat-label">Clients</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="section skills">
+        <div class="container">
+            <h2 class="section-title">My Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-icon">🎨</div>
+                    <h3>Frontend</h3>
+                    <p>HTML5, CSS3, JavaScript, React, Vue.js, Tailwind CSS</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">⚙️</div>
+                    <h3>Backend</h3>
+                    <p>Node.js, Express, Python, Django, PostgreSQL, MongoDB</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">🛠️</div>
+                    <h3>Tools</h3>
+                    <p>Git, Docker, AWS, Figma, VS Code, Webpack</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">📱</div>
+                    <h3>Mobile</h3>
+                    <p>React Native, Flutter, Responsive Design, PWA</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <article class="project-card">
+                    <div class="project-image" style="background: linear-gradient(45deg, #3b82f6, #8b5cf6);"></div>
+                    <div class="project-content">
+                        <h3>E-Commerce Dashboard</h3>
+                        <p>A comprehensive dashboard for managing online stores with real-time analytics.</p>
+                        <div class="tags">
+                            <span>React</span>
+                            <span>Node.js</span>
+                            <span>Chart.js</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#">Demo</a>
+                            <a href="#">Github</a>
+                        </div>
+                    </div>
+                </article>
+                <article class="project-card">
+                    <div class="project-image" style="background: linear-gradient(45deg, #10b981, #3b82f6);"></div>
+                    <div class="project-content">
+                        <h3>Task Management App</h3>
+                        <p>A collaborative task manager with drag-and-drop functionality and team features.</p>
+                        <div class="tags">
+                            <span>Vue.js</span>
+                            <span>Firebase</span>
+                            <span>Sass</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#">Demo</a>
+                            <a href="#">Github</a>
+                        </div>
+                    </div>
+                </article>
+                <article class="project-card">
+                    <div class="project-image" style="background: linear-gradient(45deg, #f59e0b, #ef4444);"></div>
+                    <div class="project-content">
+                        <h3>Social Media API</h3>
+                        <p>A robust RESTful API for a social networking platform with auth and media handling.</p>
+                        <div class="tags">
+                            <span>Express</span>
+                            <span>MongoDB</span>
+                            <span>AWS S3</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#">Demo</a>
+                            <a href="#">Github</a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-wrapper">
+                <div class="contact-info">
+                    <h3>Let's Talk</h3>
+                    <p>Have a project in mind or just want to say hi? Feel free to send me a message.</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <span>📧</span>
+                            <a href="mailto:hello@example.com">hello@example.com</a>
+                        </div>
+                        <div class="contact-item">
+                            <span>📍</span>
+                            <span>Seoul, South Korea</span>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="#" aria-label="GitHub">GH</a>
+                        <a href="#" aria-label="LinkedIn">LI</a>
+                        <a href="#" aria-label="Twitter">TW</a>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Alex Developer. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
